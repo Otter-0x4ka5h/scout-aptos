@@ -3,7 +3,7 @@ exclude = [".cargo", "target"]
 members = ["*"]
 
 [workspace.dependencies]
-clippy_utils = { git = "https://github.com/rust-lang/rust-clippy", rev = "99c7838" }
+clippy_utils = { git = "https://github.com/rust-lang/rust-clippy", rev = "ccf7c88386be0f4bfd13bac2ffb616e09c033e55" }
 if_chain = "=1.0.2"
 itertools = { version = "=0.13" }
 scout-audit-dylint-linting = { git = "https://github.com/CoinFabrik/scout-audit", rev = "e03ede4" }
